@@ -1,0 +1,32 @@
+body{
+    
+margin-left: 650px;
+margin-top: 300px;
+margin-right: 0%;
+}
+div{
+  
+   padding-right: 670px;
+  
+}
+form{
+    background-color: rgb(10, 241, 226);
+    color: rgb(0, 0, 0);
+border: 2px solid rgb(0, 0, 0);
+border-radius: 10px;
+padding-left: 14px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+.username{
+  padding-top: 6px;
+}
+.password{
+    padding-top: 6px;
+  
+}
+.submit{
+    padding-top: 10px;
+    padding-left: 50px;
+}
