@@ -1,0 +1,110 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Dropdown */
+select {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size:large;
+
+}
+/* PAGE CONTENT SPACING */
+.content {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    padding: 20px;
+    text-align: center;
+}
+/* Checkbox */
+.checkbox-container {
+  display: flex;
+  align-items:bottom;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 500px;
+  margin-left: 50px;
+  user-select: none;
+  
+}
+
+.checkbox-container input {
+  display: none;
+}
+
+.checkmark {
+  width: 22px;
+  height: 22px;
+  border: 2px solid #4a90e2;
+  border-radius: 6px;
+  margin-right: 10px;
+  position:relative;
+  transition: 0.3s;
+}
+
+.checkbox-container input:checked + .checkmark {
+  background: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  left: 6px;
+  top: 3px;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.checkbox-container input:checked + .checkmark::after {
+  opacity: 1;
+}
+
+
+ 
